@@ -23,9 +23,16 @@ h6 {
 .container{
     padding-top: 15%;
 }
+.profile{
+    display: flex;
+    justify-content: center;
+}
 .profile img{
     border-radius:  50%;
     max-height: 300px;
+}
+.profile-image{
+    max-width: 250px;
 }
 .social-links{
     font-size:      18px;
