@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 @media (min-width: 900px){
     .container{
@@ -42,7 +42,15 @@ h6 {
 }
 .profile{
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
+}
+.profile-text{
+    text-align: center;
+    margin-top: 2em;
+}
+.profile-text .name{
+    font-size: 24px;
 }
 .profile img{
     border-radius:  50%;
@@ -50,10 +58,6 @@ h6 {
 }
 .profile-image{
     max-width: 250px;
-    -webkit-animation-name: downward; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    animation-name: downward;
-    animation-duration: 2s;
 }
 .social-links{
     font-size:      18px;
